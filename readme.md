@@ -9,7 +9,7 @@ docker run --name liza-shop -p 27017:27017 -d mongo:3.6
 ```
 [Postgres](https://hub.docker.com/_/postgres)
 ```sh
-docker run --name liza-shop -e POSTGRES_PASSWORD=example -e POSTGRES_USER=admin -p 5432:5432 -d postgres:11
+docker run --name liza-shop -e POSTGRES_PASSWORD=example -e POSTGRES_USER=admin -e POSTGRES_DB=liza -p 5433:5432 -d postgres:11
 ```
 
 ## Library

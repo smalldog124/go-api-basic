@@ -5,6 +5,8 @@ go 1.18
 require (
 	github.com/gin-gonic/gin v1.8.1
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
+	github.com/jmoiron/sqlx v1.3.5
+	github.com/lib/pq v1.2.0
 )
 
 require (
